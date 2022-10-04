@@ -43,8 +43,8 @@ void main() {
   print("Next Program!");
   print("-------------------------------");
   print("Enter a big number and I will tell you \nhow many integers it's made of");
-  String inputtedNumber = stdin.readLineSync(encoding: Encoding.getByName("UTF-8"));
-  int num = int.parse(inputtedNumber);
+  String numberInput = stdin.readLineSync(encoding: Encoding.getByName("UTF-8"));
+  int num = int.parse(numberInput);
   int digits = 0;
   while(num != 0){
       digits = digits + 1;
